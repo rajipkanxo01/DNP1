@@ -2,7 +2,7 @@
 
 public class WaitingRoom
 {
-    public Action<int> NumberChange { get; set; }
+    public Action<int> NumberChange { get; set; } = null!;
     private int currentNumber = 0;
     private int ticketCount = 0;
 

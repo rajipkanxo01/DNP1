@@ -3,4 +3,4 @@
 using LargestProductSeries;
 
 // ;
-Console.WriteLine(Digits.FindProductOfDigits(3));
+Console.WriteLine(Digits.FindProductOfDigits(2));

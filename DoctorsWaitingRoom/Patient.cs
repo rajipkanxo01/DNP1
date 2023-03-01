@@ -3,7 +3,7 @@
 public class Patient
 {
     private int numberInQueue;
-    private WaitingRoom waitingRoom;
+    private WaitingRoom waitingRoom ;
 
     public Patient(WaitingRoom waitingRoom)
     {
@@ -18,6 +18,7 @@ public class Patient
         if (numberInQueue == number)
         {
             Console.WriteLine($"Patient {numberInQueue} goes to the doctor's office");
+            waitingRoom.NumberChange -= ReactToNumber;
         }
         else
         {

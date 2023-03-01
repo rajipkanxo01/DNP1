@@ -22,7 +22,7 @@ public class Digits
         int maxNumber = Int32.MinValue;
         Console.WriteLine(randomStrings);
         string maxElements = "";
-        char[] currentNElements = new char[] { };
+        char[] currentNElements = new char[] {};
 
         for (int i = 0; i < randomStrings.Length; i += x)
         {
@@ -40,7 +40,6 @@ public class Digits
                 maxNumber = product;
                 maxElements = new string(currentNElements);
             }
-            // Console.WriteLine("Max number: " + maxNumber);
         }
 
         return maxElements;
